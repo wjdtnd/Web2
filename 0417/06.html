@@ -8,13 +8,26 @@
         h1:hover{
             color: red;
         }
-        
+
         h1:active{
             color: green;
         }
+
+        input:disabled{
+            background: gray;
+        }
+
+        input:focus{
+            background: orange;
+        }
+
     </style>
 </head>
 <body>
     <h1>반응선택자</h1>
+    <form action="">
+        사용가능: <input type="text",size="20"><br><br>
+        사용불가능: <input type="text",size="20",disabled="disabled"><br><br>
+    </form>
 </body>
 </html>
