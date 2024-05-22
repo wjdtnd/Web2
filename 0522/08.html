@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent{
+            width: 500px;
+            height: 300px;
+            overflow: hidden;
+            position: relative;
+        }
+        .child{
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            border-radius: 50% 50%;
+        }
+        #red{
+            background-color: red;
+            left: 20px;
+            top: 20px;
+        }
+        #green{
+            background-color: green;
+            right: 20px;
+            top: 20px;
+        }
+        #blue{
+            background-color: blue;
+            right: 20px;
+            bottom: 20px;
+        }
+        #yellow{
+            background-color: yellow;
+            left: 20px;
+            bottom: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Parent position relative</h1>
+    <div id="parent">
+        <div id="red" class="child">1</div>
+        <div id="green" class="child">2</div>
+        <div id="blue" class="child">3</div>
+        <div id="yellow" class="child">4</div>
+    </div>
+    <h1>Child position absolute</h1>
+</body>
+</html>
