@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin : 0px;
+            padding : 0px;
+        }
+ 
+        body {
+            width: 960px;
+            margin : 0px auto 0px auto;
+            overflow : hidden;
+        }
+ 
+        #menu {
+            width: 260px;
+            float : right;
+        }
+ 
+        #section {
+            width : 700px;
+            float : left;            
+        }
+ 
+        li {
+            list-style : none;
+        }
+ 
+        /* 소형 디바이스인 경우 스타일 */
+        @media screen and (max-width : 767px){
+            body {
+                width : auto;
+            }
+ 
+            #menu {
+                width : auto;
+                float : none;
+            }
+ 
+            #section {
+                width : auto;
+                float : none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="section">
+        <h1>반응형 웹 패턴 4 (오른쪽 메뉴가 아래쪽으로 이동) </h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio consequuntur architecto doloribus illum quam omnis autem ab deserunt accusamus, voluptatem, suscipit, soluta impedit nihil. At laborum deserunt nemo tenetur eius!Lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum vero consequatur aliquam animi libero esse quos nemo quae, adipisci minus? Alias inventore deserunt quam eum sit, repellendus possimus suscipit ratione? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur deleniti eveniet iure exercitationem sint quae laboriosam illum corrupti nisi. Impedit voluptates dolorum accusantium delectus reiciendis tempora dicta eligendi, porro iusto! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error nisi asperiores exercitationem accusantium praesentium sit dicta corporis odit explicabo nesciunt ipsum dolorum, mollitia impedit nam! Voluptatem, recusandae error. Quasi, qui? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam laudantium fugiat eveniet, veniam dolorum dolor ratione harum velit repudiandae reprehenderit animi totam, molestiae accusantium? Corrupti excepturi explicabo harum commodi adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nemo pariatur fugiat? Consequatur, dolorem. Mollitia amet ad libero laborum saepe illum minima facilis ut. Dolorem hic doloremque totam et enim!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio consequuntur architecto doloribus illum quam omnis autem ab deserunt accusamus, voluptatem, suscipit, soluta impedit nihil. At laborum deserunt nemo tenetur eius!Lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum vero consequatur aliquam animi libero esse quos nemo quae, adipisci minus? Alias inventore deserunt quam eum sit, repellendus possimus suscipit ratione? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur deleniti eveniet iure exercitationem sint quae laboriosam illum corrupti nisi. Impedit voluptates dolorum accusantium delectus reiciendis tempora dicta eligendi, porro iusto! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error nisi asperiores exercitationem accusantium praesentium sit dicta corporis odit explicabo nesciunt ipsum dolorum, mollitia impedit nam! Voluptatem, recusandae error. Quasi, qui? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam laudantium fugiat eveniet, veniam dolorum dolor ratione harum velit repudiandae reprehenderit animi totam, molestiae accusantium? Corrupti excepturi explicabo harum commodi adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nemo pariatur fugiat? Consequatur, dolorem. Mollitia amet ad libero laborum saepe illum minima facilis ut. Dolorem hic doloremque totam et enim!</p>
+    </div>
+    <div id="menu">
+        <ul>
+            <li>Menu 1</li>
+            <li>Menu 2</li>
+            <li>Menu 3</li>
+        </ul>
+    </div>
+</body>
+</html>
