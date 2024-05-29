@@ -5,16 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        @media screen {
+        /* 스마트폰(소형디바이스인 경우) */
+        @media screen and (max-width: 767px){
             body{
-                background-color: olivedrab;
+                background-color: rgb(219, 55, 55);
             }
         }
-
-        @media print {
+        /* 스마트폰(중형디바이스인 경우) */
+        @media screen and (min-width: 768px) and (max-width: 959px){
             body{
-                background-color: palevioletred;
+                background-color: rgb(4, 0, 255);
             }
+        }
+        /* 스마트폰(대형디바이스인 경우) */
+        @media screen and (min-width: 960px){
+           body{
+               background-color: rgb(255, 255, 0);
+           }
         }
     </style>
 </head>
