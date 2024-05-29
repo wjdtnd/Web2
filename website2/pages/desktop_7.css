@@ -1,0 +1,203 @@
+.desktop-7 .reviwes {
+  margin: 0 17px 104px 17px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Zen Old Mincho';
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 1.5;
+  color: #000000;
+}
+.desktop-7 .container {
+  background: url('../assets/images/image_6.png') 50% / cover no-repeat;
+  margin-right: 32px;
+  width: 324px;
+  height: 365px;
+}
+.desktop-7 .container-1 {
+  background: url('../assets/images/image_10.jpeg') 50% / cover no-repeat;
+  margin-right: 31px;
+  width: 332px;
+  height: 365px;
+}
+.desktop-7 .container-2 {
+  background: url('../assets/images/image_16.png') 50% / cover no-repeat;
+  margin-right: 32px;
+  width: 327px;
+  height: 365px;
+}
+.desktop-7 .container-4 {
+  background: url('../assets/images/image_3.jpeg') 50% / cover no-repeat;
+  width: 311px;
+  height: 365px;
+}
+.desktop-7 .container {
+  background: url('../assets/images/image_3.jpeg') 50% / cover no-repeat;
+  position: relative;
+  display: flex;
+  width: 311px;
+  height: 365px;
+  box-sizing: border-box;
+}
+.desktop-7 .container-3 {
+  margin: 0 10.9px 19px 0;
+  display: flex;
+  flex-direction: row;
+  width: 1389px;
+  box-sizing: border-box;
+}
+.desktop-7 .container-5 {
+  margin: 6px 22.5px 8px 0;
+  display: inline-block;
+  width: 322.5px;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.5;
+  color: #000000;
+}
+.desktop-7 .container-6 {
+  margin: 2px 0 12px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.5;
+  color: #000000;
+}
+.desktop-7 .container-8 {
+  margin-bottom: 14px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.5;
+  color: #000000;
+}
+.desktop-7 .container-7 {
+  margin-top: 14px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.5;
+  color: #000000;
+}
+.desktop-7 .container-2 {
+  margin: 0 12px 15px 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 1194px;
+  box-sizing: border-box;
+}
+.desktop-7 .cerealbowl {
+  margin: 1px 18px 5px 0;
+  display: inline-block;
+  width: 312px;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #C9C9C9;
+}
+.desktop-7 .cup {
+  margin-bottom: 6px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #C9C9C9;
+}
+.desktop-7 .mug {
+  margin: 1px 0 5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #C9C9C9;
+}
+.desktop-7 .wine {
+  margin-top: 6px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #C9C9C9;
+}
+.desktop-7 .container-1 {
+  margin: 0 27px 21px 27px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 1139.2px;
+  box-sizing: border-box;
+}
+.desktop-7 .classic-elegance-meets-traquil-design-in-every-piece {
+  margin-right: 27.6px;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.desktop-7 .where-sleek-lines-and-artistic-flair-redefine-dining {
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.desktop-7 .container-4 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.desktop-7 .evoking-seaside-tranquility-with-every-plece {
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.desktop-7 .time-honored-elegance-relmagined-for-mordern-tables {
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.desktop-7 .container-5 {
+  margin-left: 27px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1372.9px;
+  box-sizing: border-box;
+}
+.desktop-7 {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding: 4px 19.1px 222px 21px;
+  width: 1440px;
+  box-sizing: border-box;
+}

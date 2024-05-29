@@ -1,0 +1,271 @@
+.frame-1 .container {
+  background: url('../assets/images/image_6.png') 50% / cover no-repeat;
+  width: 149px;
+  height: 132px;
+}
+.frame-1 .container-2 {
+  background: url('../assets/images/image_11.png') 50% / cover no-repeat;
+  width: 149px;
+  height: 132px;
+}
+.frame-1 .container-4 {
+  background: url('../assets/images/image_16.png') 50% / cover no-repeat;
+  width: 149px;
+  height: 132px;
+}
+.frame-1 .container-1 {
+  margin: 0 2px 12px 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 1017px;
+  box-sizing: border-box;
+}
+.frame-1 .container-1 {
+  margin: 9px 22.5px 0 0;
+  display: inline-block;
+  width: 400.5px;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.5;
+  color: #000000;
+}
+.frame-1 .container-3 {
+  margin-top: 9px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.5;
+  color: #000000;
+}
+.frame-1 .container-5 {
+  margin-bottom: 9px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.5;
+  color: #000000;
+}
+.frame-1 .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 1048.3px;
+  box-sizing: border-box;
+}
+.frame-1 .cerealbowl {
+  margin: 0 18px 3px 0;
+  display: inline-block;
+  width: 403px;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #C9C9C9;
+}
+.frame-1 .cup {
+  margin-bottom: 3px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #C9C9C9;
+}
+.frame-1 .mug {
+  margin-top: 3px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #C9C9C9;
+}
+.frame-1 .container-6 {
+  margin: 0 2px 13.5px 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 930.3px;
+  box-sizing: border-box;
+}
+.frame-1 .classic-elegance-meets-traquil-design-in-every-piece-when-an-unknown-printer-took-agalley-of-type-and-scrambled-it-to-make-atype-specimen-book-it-has-survived-not-only-five-centuries-but-also-the-leap-into-electronic-typesetting-remaining-essentially-unchanged {
+  margin: 7px 103.6px 83px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.frame-1 .where-sleek-lines-and-artistic-flair-redefine-dining-it-is-along-established-fact-that-areader-will-be-distracted-by-the-readable-content-of-apage-when-looking-at-its-layout-the-point-of-using-lorem-ipsum-is-that-it-has-amore-or-less-normal-distribution-of-letters-as-opposed-to-using-content-here-content-here-making-it-look-like-readable-english {
+  margin: 2.5px 161.7px 27.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.frame-1 .evoking-seaside-tranquility-with-every-plece-there-are-many-variations-of-passages-of-lorem-ipsum-available-but-the-majority-have-suffered-alteration-in-some-form-by-injected-humour-or-randomised-words-which-dont-look-even-slightly-believable-if-you-are-going-to-use-apassage-of-lorem-ipsum-you-need-to-be-sure-there-isnt-anything-embarrassing-hidden-in-the-middle-of-text {
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.frame-1 .container-3 {
+  margin: 0 5px 35.5px 5px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.frame-1 .container-6 {
+  background: url('../assets/images/image_3.jpeg') 50% / cover no-repeat;
+  margin-top: 27px;
+  width: 149px;
+  height: 132px;
+}
+.frame-1 .container-8 {
+  background: url('../assets/images/image_18.jpeg') 50% / cover no-repeat;
+  margin-top: 27px;
+  width: 149px;
+  height: 132px;
+}
+.frame-1 .container-10 {
+  background: url('../assets/images/image.jpeg') 50% / cover no-repeat;
+  margin: 26px 0 1px 0;
+  width: 149px;
+  height: 132px;
+}
+.frame-1 .png-transparent-number-computer-icons-plus-miscellaneous-game-plus-1 {
+  background: url('../assets/images/png_transparent_number_computer_icons_plus_miscellaneous_game_plus_1.png') 50% / cover no-repeat;
+  margin-bottom: 107px;
+  width: 52px;
+  height: 52px;
+}
+.frame-1 .container-5 {
+  margin: 0 0 40px 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1350px;
+  box-sizing: border-box;
+}
+.frame-1 .container-7 {
+  margin-right: 22.5px;
+  width: 387.5px;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.5;
+  color: #000000;
+}
+.frame-1 .container-9 {
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.5;
+  color: #000000;
+}
+.frame-1 .container-11 {
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.5;
+  color: #000000;
+}
+.frame-1 .container-2 {
+  margin: 0 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 1043.3px;
+  box-sizing: border-box;
+}
+.frame-1 .wine {
+  margin: 0 18px 3px 0;
+  display: inline-block;
+  width: 392px;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #C9C9C9;
+}
+.frame-1 .objects {
+  margin-top: 3px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #C9C9C9;
+}
+.frame-1 .cup-1 {
+  margin-top: 3px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #C9C9C9;
+}
+.frame-1 .container-4 {
+  margin: 0 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 907.1px;
+  box-sizing: border-box;
+}
+.frame-1 .desktop-1 {
+  background: #FFFFFF;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 109px 53px 16px 32px;
+  box-sizing: border-box;
+}
+.frame-1 .reviwes {
+  position: absolute;
+  left: 20px;
+  top: 0px;
+  overflow-wrap: break-word;
+  font-family: 'Zen Old Mincho';
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 1.5;
+  color: #000000;
+}
+.frame-1 {
+  display: flex;
+  padding-top: 19px;
+  width: 1440px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,75 @@
+.desktop-5 .container-3 {
+  background: url('../assets/images/image_17.jpeg') 50% / cover no-repeat;
+  margin-bottom: 35px;
+  width: 332px;
+  height: 365px;
+}
+.desktop-5 .container-2 {
+  background: url('../assets/images/image_1.jpeg') 50% / cover no-repeat;
+  margin-left: 8px;
+  width: 324px;
+  height: 365px;
+}
+.desktop-5 .container-2 {
+  margin: 129px 32px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 332px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.desktop-5 .container-1 {
+  background: url('../assets/images/image_14.jpeg') 50% / cover no-repeat;
+  margin-bottom: 35px;
+  width: 332px;
+  height: 365px;
+}
+.desktop-5 .container {
+  background: url('../assets/images/image_4.jpeg') 50% / cover no-repeat;
+  margin: 0 4px;
+  width: 324px;
+  height: 365px;
+}
+.desktop-5 .container {
+  margin: 129px 186px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 332px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.desktop-5 .our-best-items {
+  margin-bottom: 53px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.5;
+  color: #000000;
+}
+.desktop-5 .heart-wine-goblet-cup-ribbon-mug-cuppink-ribbon-mug-cupwhite-pearl-ribbon-mini-cup-ribbon-wine-goblet-cup-ribbon-plate-ribbon-mini-cup-silver-line-ribbon-cup-ribbon-mini-cupblue-ceramic-heart-obj-pearl-silver-ribbon-mini-cup {
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #9E9E9E;
+}
+.desktop-5 .container-1 {
+  margin: 233px 0 167px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.desktop-5 {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  padding: 129px 0 130px 35px;
+  width: 1440px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,122 @@
+.desktop-6 .we-value-the-uniqueness-of-each-person-and-want-to-help-you-express-yourself-by-creating-your-own-collection {
+  margin: 0 0 28.6px 19.5px;
+  display: inline-block;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Zen Old Mincho';
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.5;
+  color: #000000;
+}
+.desktop-6 .container-2 {
+  background: url('../assets/images/image_6.png') 50% / cover no-repeat;
+  transform: rotate(-20.656deg);
+  align-self: flex-start;
+  width: 431.9px;
+  height: 455.8px;
+}
+.desktop-6 .container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.desktop-6 .container-4 {
+  background: url('../assets/images/image_6.png') 50% / cover no-repeat;
+  position: absolute;
+  left: 351px;
+  bottom: 264px;
+  width: 324px;
+  height: 365px;
+}
+.desktop-6 .container-5 {
+  background: url('../assets/images/image_6.png') 50% / cover no-repeat;
+  position: absolute;
+  left: 527px;
+  bottom: 214px;
+  width: 343px;
+  height: 364px;
+}
+.desktop-6 .container-8 {
+  background: url('../assets/images/image_6.png') 50% / cover no-repeat;
+  position: absolute;
+  right: 369px;
+  bottom: 183px;
+  width: 324px;
+  height: 365px;
+}
+.desktop-6 .container-9 {
+  background: url('../assets/images/image_6.png') 50% / cover no-repeat;
+  position: absolute;
+  right: 164px;
+  bottom: 304px;
+  width: 324px;
+  height: 365px;
+}
+.desktop-6 .container-6 {
+  background: url('../assets/images/image_6.png') 50% / cover no-repeat;
+  position: absolute;
+  left: 463px;
+  bottom: 0px;
+  width: 324px;
+  height: 365px;
+}
+.desktop-6 .container-7 {
+  background: url('../assets/images/image_6.png') 50% / cover no-repeat;
+  position: absolute;
+  right: 414px;
+  bottom: -35px;
+  width: 279px;
+  height: 365px;
+}
+.desktop-6 .create-collection {
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Yesteryear';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.desktop-6 .container-1 {
+  background: url('../assets/images/image_8.png') 50% / cover no-repeat;
+  position: absolute;
+  left: 629px;
+  top: 285px;
+  padding: 0 12.7px;
+  width: 163px;
+  height: 161px;
+  box-sizing: border-box;
+}
+.desktop-6 .container-3 {
+  background: url('../assets/images/image_6.png') 50% / cover no-repeat;
+  position: absolute;
+  left: 215px;
+  bottom: 31px;
+  width: 324px;
+  height: 365px;
+}
+.desktop-6 .container-1 {
+  background: url('../assets/images/image_6.png') 50% / cover no-repeat;
+  position: absolute;
+  left: -26px;
+  bottom: 121px;
+  width: 324px;
+  height: 365px;
+}
+.desktop-6 .container-10 {
+  background: url('../assets/images/image_6.png') 50% / cover no-repeat;
+  position: absolute;
+  right: 164px;
+  bottom: 32px;
+  width: 324px;
+  height: 365px;
+}
+.desktop-6 {
+  background: #FFFFFF;
+  display: flex;
+  padding: 31px 85.5px 0 66px;
+  width: 1440px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,81 @@
+.desktop-4 .featured {
+  margin: 0 7px 30px 7px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Zen Old Mincho';
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 1.5;
+  color: #000000;
+}
+.desktop-4 .container-4 {
+  background: url('../assets/images/image_3.jpeg') 50% / cover no-repeat;
+  margin-right: 31px;
+  width: 332px;
+  height: 365px;
+}
+.desktop-4 .container-5 {
+  background: url('../assets/images/image_15.jpeg') 50% / cover no-repeat;
+  margin-right: 32px;
+  width: 327px;
+  height: 365px;
+}
+.desktop-4 .container-6 {
+  background: url('../assets/images/image_12.jpeg') 50% / cover no-repeat;
+  width: 311px;
+  height: 365px;
+}
+.desktop-4 .container {
+  margin-bottom: 54px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  width: 1033px;
+  box-sizing: border-box;
+}
+.desktop-4 .container {
+  background: url('../assets/images/image_2.jpeg') 50% / cover no-repeat;
+  margin-right: 32px;
+  width: 324px;
+  height: 365px;
+}
+.desktop-4 .container-1 {
+  background: url('../assets/images/image_9.jpeg') 50% / cover no-repeat;
+  margin-right: 31px;
+  width: 332px;
+  height: 365px;
+}
+.desktop-4 .container-2 {
+  background: url('../assets/images/image_18.jpeg') 50% / cover no-repeat;
+  margin-right: 32px;
+  width: 327px;
+  height: 365px;
+}
+.desktop-4 .container-7 {
+  background: url('../assets/images/image_7.jpeg') 50% / cover no-repeat;
+  width: 311px;
+  height: 365px;
+}
+.desktop-4 .container-1 {
+  background: url('../assets/images/image_3.jpeg') 50% / cover no-repeat;
+  position: relative;
+  display: flex;
+  width: 311px;
+  height: 365px;
+  box-sizing: border-box;
+}
+.desktop-4 .container-2 {
+  display: flex;
+  flex-direction: row;
+  width: 1389px;
+  box-sizing: border-box;
+}
+.desktop-4 {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding: 4px 20px 93px 31px;
+  width: 1440px;
+  box-sizing: border-box;
+}

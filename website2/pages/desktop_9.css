@@ -1,0 +1,134 @@
+.desktop-9 .contect-us {
+  margin-bottom: 45px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Zen Old Mincho';
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 1.5;
+  color: #000000;
+}
+.desktop-9 .name-phone-email-your-message {
+  margin-bottom: 30px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #C9C9C9;
+}
+.desktop-9 .line-4 {
+  background: #C9C9C9;
+  margin-left: 1px;
+  width: 423px;
+  height: 1px;
+}
+.desktop-9 .container-4 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.desktop-9 .line-1 {
+  background: #C9C9C9;
+  position: absolute;
+  left: 1px;
+  top: 63px;
+  right: 0px;
+  height: 1px;
+}
+.desktop-9 .line-2 {
+  background: #C9C9C9;
+  position: absolute;
+  left: 1px;
+  top: 180px;
+  right: 0px;
+  height: 1px;
+}
+.desktop-9 .line-3 {
+  background: #C9C9C9;
+  position: absolute;
+  left: 1px;
+  right: 0px;
+  bottom: 106px;
+  height: 1px;
+}
+.desktop-9 .container {
+  position: relative;
+  margin: 0 133px 467.5px 0;
+  display: flex;
+  box-sizing: border-box;
+}
+.desktop-9 .container-1 {
+  margin: 570.5px 56.3px 0 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #C9C9C9;
+}
+.desktop-9 .qqqqqqq {
+  margin: 252px 51.6px 246.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #C9C9C9;
+}
+.desktop-9 .send-message {
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Yesteryear';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.desktop-9 .container-2 {
+  background: url('../assets/images/image_8.png') 50% / cover no-repeat;
+  position: relative;
+  margin: 655px 0 42.5px 0;
+  display: flex;
+  padding: 51px 25px 50px 0;
+  width: 163px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.desktop-9 .container-1 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.desktop-9 .qqqqqqq-1 {
+  position: absolute;
+  right: 214.6px;
+  bottom: 246.5px;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #C9C9C9;
+}
+.desktop-9 .container-3 {
+  position: relative;
+  margin-left: 27px;
+  display: flex;
+  box-sizing: border-box;
+}
+.desktop-9 {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding: 4px 44px 3.5px 43px;
+  width: 1440px;
+  box-sizing: border-box;
+}

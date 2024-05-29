@@ -1,0 +1,51 @@
+.frame-2 .teecop {
+  overflow-wrap: break-word;
+  font-family: 'Zen Dots';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.5;
+  color: #000000;
+}
+.frame-2 .desktop-9 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: #FFFFFF;
+  position: relative;
+  display: flex;
+  padding: 10px 84px 0 0;
+  width: 1440px;
+  height: 903px;
+  box-sizing: border-box;
+}
+.frame-2 .menu-1109861 {
+  background: url('../assets/images/menu_1109861.png') 50% / cover no-repeat;
+  margin-bottom: 25px;
+  align-self: flex-start;
+  width: 39px;
+  height: 44px;
+}
+.frame-2 .collections-best-items-create-own-collection-reviews-contact-us {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Zen Old Mincho';
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 1.5;
+  color: #000000;
+}
+.frame-2 .container {
+  background: rgba(249, 238, 199, 0.33);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 18px 0 69px 10px;
+  box-sizing: border-box;
+}
+.frame-2 {
+  display: flex;
+  padding-top: 8px;
+  width: 1440px;
+  box-sizing: border-box;
+}

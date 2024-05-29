@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 20px;
+}
+
+.header {
+  font-size: 3em;
+  line-height: 1.5em;
+}
+
+.header .images {
+  margin-top: 100px;
+}
+
+.header .images img {
+  width: 100px;
+  height: auto;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.collection-link {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  font-size: 1.5em;
+  background-color: pink;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.collection-link img {
+  width: 100px;
+  height: auto;
+}

@@ -1,0 +1,145 @@
+.desktop-8 .our-showroom-73-bogwang-ro-yongsan-gu-seoul-republic-of-korea {
+  margin-bottom: 132px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #000000;
+}
+.desktop-8 .phone-821020014000 {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #000000;
+}
+.desktop-8 .container-4 {
+  margin: 28px 74.9px 90px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.desktop-8 .email-teecopgmail-com {
+  margin-bottom: 161px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #000000;
+}
+.desktop-8 .instagram-tictok-facebook {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #000000;
+}
+.desktop-8 .container-2 {
+  margin: 35px 307.6px 90px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.desktop-8 .contact-us {
+  margin-bottom: 29px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Zen Old Mincho';
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 1.5;
+  color: #000000;
+}
+.desktop-8 .name-phone-email-your-message {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Yantramanav';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #C9C9C9;
+}
+.desktop-8 .container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.desktop-8 .line-1 {
+  background: #C9C9C9;
+  position: absolute;
+  left: 1px;
+  top: 205px;
+  width: 423px;
+  height: 1px;
+}
+.desktop-8 .line-2 {
+  background: #C9C9C9;
+  position: absolute;
+  left: 1px;
+  bottom: 179px;
+  width: 423px;
+  height: 1px;
+}
+.desktop-8 .line-3 {
+  background: #C9C9C9;
+  position: absolute;
+  left: 1px;
+  bottom: 75px;
+  width: 423px;
+  height: 1px;
+}
+.desktop-8 .container-5 {
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+}
+.desktop-8 .container-1 {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.desktop-8 .line-4 {
+  background: #C9C9C9;
+  margin: 0 70.5px 101px 70.5px;
+  width: 423px;
+  height: 1px;
+}
+.desktop-8 .send-message {
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Yesteryear';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.desktop-8 .container-3 {
+  background: url('../assets/images/image_8.png') 50% / cover no-repeat;
+  position: relative;
+  margin-left: 439.5px;
+  display: flex;
+  align-self: center;
+  padding: 51px 25px 50px 0;
+  width: 163px;
+  box-sizing: border-box;
+}
+.desktop-8 {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 4px 42.5px 225px 46px;
+  width: 1440px;
+  box-sizing: border-box;
+}
