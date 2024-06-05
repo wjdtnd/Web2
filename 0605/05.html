@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let date=new Date();
+        let hour = date.getHours();
+        let result="";
+
+        if (hour<5) {
+            result="더 자도록 합시다.";
+        } else if (hour<7) {
+            result="준비합시다.";
+        } else if(hour<9){
+            result="출근합시다.";
+        } else if(hour<12){
+            result="오전 수업을 들으세요.";
+        } else if(hour<14){
+            result="점심을 드세요.";
+        } else{
+            result="오후 수업이 다 끝나면 하교합시다.";
+        } 
+
+        alert("현재시간은 " + hour + "시 입니다." + "\n\n" + result);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
