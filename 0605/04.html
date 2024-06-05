@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        /*  1.출생년도로를 입력받아서 나이 구하기(prompt 사용, date객체사용)
+            2.나이가 19세 이하이면 청소년, 아니면 성인을 표기(if else 문 사용)*/
+        let input= prompt("출생년도를 입력하세요.","ex)1999");
+        let date = new Date();
+        let year = date.getFullYear();
+        let age = year-input;
+        alert(age+"세");
+
+        if (age<=19) {
+            result = "청소년";
+        } else {
+            result = "성인";
+        }
+        
+        alert("당신은 "+age+"세 이므로 "+result+"입니다.")
+    </script>
+</head>
+<body>
+</body>
+</html>
