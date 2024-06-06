@@ -1,11 +1,22 @@
 /* styles.css 파일 */
-@font-face {
-    .zen-old-mincho-regular {
-        font-family: "Zen Old Mincho", serif;
-        font-weight: 400;
-        font-style: normal;
-      }      
-}
+.zen-old-mincho-regular {
+    font-family: "Zen Old Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+.zen-dots-regular {
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+.yesteryear-regular {
+    font-family: "Yesteryear", cursive;
+    font-weight: 400;
+    font-style: normal;
+    }
+      
+  
 
 /* 폰트를 적용할 요소에 폰트 패밀리를 지정 */
 body {
