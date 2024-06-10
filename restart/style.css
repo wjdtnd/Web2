@@ -1,0 +1,753 @@
+#style {
+    width: 63px;
+    height: 61px;
+    left: 1233px;
+    top: 117px;
+    position: absolute;
+    z-index: 90;
+}
+
+#top1{
+    width: 1440px;
+    height: 903px;
+    padding: 10px;
+    left: 48px;
+    top: 0px;
+    position: absolute; rgba(0, 0, 0, 0.25);
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: inline-flex;
+}
+
+#top2{
+    left: 1382px;
+    top: 15px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-family: Zen Dots;
+    font-weight: 400;
+    line-height: 22.50px;
+    word-wrap: break-word;
+}
+
+#top3{
+    left: 698px;
+    top: 15px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: Zen Dots;
+    font-weight: 400;
+    line-height: 45px;
+    word-wrap: break-word;
+}
+
+#main1-1{
+    width: 1503px;
+    height: 903px;
+    position: relative;
+}
+
+#main1-2{
+    width: 1440px;
+    height: 903px;
+    padding: 10px;
+    left: 48px;
+    top: 0px;
+    position: absolute;
+    rgba(0, 0, 0, 0.25);
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: inline-flex;
+}
+
+#main1-3{
+    width: 1095px;
+    height: 160px;
+    left: 129px;
+    top: 209px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 150px;
+    font-family: Zen Old Mincho;
+    font-weight: 400;
+    line-height: 225px;
+    word-wrap: break-word;
+}
+
+#main1-4{
+    width: 178px;
+    height: 145px;
+    left: 1240px;
+    top: 250px;
+    position: absolute;
+}
+
+#main1-5{
+    width: 513px;
+    height: 167px;
+    left: 990px;
+    top: 344px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 150px;
+    font-family: Zen Old Mincho;
+    font-weight: 400;
+    line-height: 225px;
+    word-wrap: break-word;
+}
+
+#main1-6{
+    width: 1422px;
+    height: 184px;
+    left: 57px;
+    top: 496px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 150px;
+    font-family: Zen Old Mincho;
+    font-weight: 400;
+    line-height: 225px;
+    word-wrap: break-word;
+}
+
+#main1-7{
+    width: 175px;
+    height: 150px;
+    left: 827px;
+    top: 400px;
+    position: absolute;
+}
+
+#main1-8{
+    width: 799px;
+    height: 160px;
+    left: 38px;
+    top: 351px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 150px;
+    font-family: Zen Old Mincho;
+    font-weight: 400;
+    line-height: 225px;
+    word-wrap: break-word;
+}
+
+#main1-9{
+    width: 163px;
+    height: 161px;
+    left: 90px;
+    top: 699px;
+    position: absolute;
+}
+
+#main1-10{
+    width: 318px;
+    left: 0px;
+    top: 749px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: Yesteryear;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+}
+
+#main2-1{
+    width: 1440px;
+    height: 903px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+#main2-2{
+    width: 1440px;
+    height: 903px;
+    position: relative;
+}
+
+#main2-3{
+    width: 1440px;
+    height: 903px;
+    padding: 10px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    rgba(0, 0, 0, 0.25);
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: inline-flex;
+}
+
+#main2-4{
+    width: 642px;
+    height: 121px;
+    text-align: center;
+    color: black;
+    font-size: 75px;
+    font-family: Zen Old Mincho;
+    font-weight: 400;
+    line-height: 112.50px;
+    word-wrap: break-word;
+}
+
+#main2-5{
+    width: 241px;
+    height: 43px;
+    left: 134px;
+    top: 720px;
+    position: absolute;
+    text-align: right;
+    color: black;
+    font-size: 24px;
+    font-family: Zen Old Mincho;
+    font-weight: 900;
+    line-height: 36px;
+    word-wrap: break-word;
+}
+
+#main2-6{
+    width: 369px;
+    height: 116px;
+    left: 175px;
+    top: 759px;
+    position: absolute;
+    color: black;
+    font-size: 19px;
+    font-family: Zen Old Mincho;
+    font-weight: 400;
+    line-height: 28.50px;
+    word-wrap: break-word;
+}
+
+#main2-7{
+    width: 241px;
+    height: 116px;
+    left: 1184px;
+    top: 415px;
+    position: absolute;
+    text-align: right;
+    color: black;
+    font-size: 19px;
+    font-family: Zen Old Mincho;
+    font-weight: 400;
+    line-height: 28.50px;
+    word-wrap: break-word;
+}
+
+#main2-8{
+    width: 241px;
+    height: 43px;
+    left: 1184px;
+    top: 372px;
+    position: absolute;
+    text-align: right;
+    color: black;
+    font-size: 24px;
+    font-family: Zen Old Mincho;
+    font-weight: 900;
+    line-height: 36px;
+    word-wrap: break-word;
+}
+
+#main2-9{
+    width: 241px;
+    height: 43px;
+    left: 901px;
+    top: 710px;
+    position: absolute;
+    text-align: right;
+    color: black;
+    font-size: 24px;
+    font-family: Zen Old Mincho;
+    font-weight: 900;
+    line-height: 36px;
+    word-wrap: break-word;
+}
+
+#main2-10{
+    width: 298px;
+    height: 116px;
+    left: 948px;
+    top: 753px;
+    position: absolute;
+    color: black;
+    font-size: 19px;
+    font-family: Zen Old Mincho;
+    font-weight: 400;
+    line-height: 28.50px;
+    word-wrap: break-word;
+}
+
+#main2-11{
+    width: 1100px;
+    height: 424px;
+    left: 42px;
+    top: 232px;
+    position: absolute;
+}
+
+#main2-12{
+    width: 702px;
+    height: 124px;
+    left: 684px;
+    top: 81px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: Zen Old Mincho;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+}
+
+#main3-1{
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background: white;
+}
+
+#main3-2{
+    width: 642px;
+    height: 121px;
+    left: 0px;
+    top: 60px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 75px;
+    font-family:  Zen Old Mincho;
+    font-weight: 400;
+    line-height: 112.50px;
+    word-wrap: break-word;
+}
+
+#main3-3{
+    width: 241px;
+    height: 43px;
+    left: 31px;
+    top: 781px;
+    position: absolute;
+    color: #C9C9C9;
+    font-size: 24px;
+    font-family: Yantramanav;
+    font-weight: 400;
+    line-height: 36px;
+    word-wrap: break-word;
+}
+
+#main3-4{
+    width: 303px;
+    height: 43px;
+    left: 16px;
+    top: 716px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: Yantramanav;
+    font-weight: 400;
+    line-height: 45px;
+    word-wrap: break-word;
+}
+
+#main3-5{
+    width: 318px;
+    height: 43px;
+    left: 31px;
+    top: 855px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Yantramanav;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+}
+
+#main3-6{
+    width: 318px;
+    height: 43px;
+    left: 388px;
+    top: 854px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Yantramanav;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+}
+
+#main3-7{
+    width: 318px;
+    height: 43px;
+    left: 745px;
+    top: 853px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Yantramanav;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+}
+
+#main3-8{
+    width: 305px;
+    height: 43px;
+    left: 1135px;
+    top: 852px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Yantramanav;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+}
+
+#main3-9{
+    width: 303px;
+    height: 43px;
+    left: 336px;
+    top: 716px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: Yantramanav;
+    font-weight: 400;
+    line-height: 45px;
+    word-wrap: break-word;
+}
+
+#main3-10{
+    width: 303px;
+    height: 43px;
+    left: 1119px;
+    top: 724px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: Yantramanav;
+    font-weight: 400;
+    line-height: 45px;
+    word-wrap: break-word;
+}
+
+#main3-11{
+    width: 303px;
+    height: 43px;
+    left: 706px;
+    top: 724px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: Yantramanav;
+    font-weight: 400;
+    line-height: 45px;
+    word-wrap: break-word;
+}
+
+#main3-12{
+    width: 241px;
+    height: 43px;
+    left: 1135px;
+    top: 781px;
+    position: absolute;
+    color: #C9C9C9;
+    font-size: 24px;
+    font-family: Yantramanav;
+    font-weight: 400;
+    line-height: 36px;
+    word-wrap: break-word;
+}
+
+#main3-13{
+    width: 241px;
+    height: 43px;
+    left: 745px;
+    top: 781px;
+    position: absolute;
+    color: #C9C9C9;
+    font-size: 24px;
+    font-family: Yantramanav;
+    font-weight: 400;
+    line-height: 36px;
+    word-wrap: break-word;
+}
+
+#main3-14{
+    width: 241px;
+    height: 43px;
+    left: 388px;
+    top: 775px;
+    position: absolute;
+    color: #C9C9C9;
+    font-size: 24px;
+    font-family: Yantramanav;
+    font-weight: 400;
+    line-height: 36px;
+    word-wrap: break-word;
+}
+
+#main3-15{
+    width: 318px;
+    left: 590px;
+    top: 99px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: Yesteryear;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+}
+
+#main4-1{
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background: white;
+}
+
+#main4-2{
+    width: 642px;
+    height: 121px;
+    left: 38px;
+    top: 0px;
+    position: absolute;
+    color: black;
+    font-size: 75px;
+    font-family: Zen Old Mincho;
+    font-weight: 400;
+    line-height: 112.50px;
+    word-wrap: break-word;
+}
+
+/* 5페이지 */
+#OurBestItems{
+    width: 303px;
+    height: 43px;
+    left: 882px;
+    top: 1195px;
+    position: absolute;
+    color: black;
+    font-size: 30px;
+    font-family: Yantramanav;
+    font-weight: 400;
+    line-height: 45px;
+    word-wrap: break-word;
+}
+
+#bestList{
+    width: 403px;
+    height: 458px;
+    left: 882px;
+    top: 1250px;
+    position: absolute;
+    color: #9E9E9E;
+    font-size: 24px;
+    font-family: Yantramanav;
+    font-weight: 400;
+    line-height: 36px;
+    word-wrap: break-word;
+}
+
+#main6-1{
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+
+#main6-2{
+    width: 318px;
+    left: 639px;
+    top: 1335px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: Yesteryear;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+}
+
+#main6-3{
+    width: 1310px;
+    height: 287px;
+    left: 165px;
+    top: 1000px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-family: Zen Old Mincho;
+    font-weight: 400;
+    line-height: 75px;
+    word-wrap: break-word;
+}
+
+#main8-1{
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+
+#main8-2{
+    width: 318px;
+    left: 46px;
+    top: 1032px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family: Yantramanav;
+    font-weight: 400;
+    line-height: 36px;
+    word-wrap: break-word;
+}
+
+#main8-3{
+    width: 318px;
+    left: 46px;
+    top: 1308px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family: Yantramanav;
+    font-weight: 400;
+    line-height: 36px;
+    word-wrap: break-word;
+}
+
+#main8-4{
+    width: 318px;
+    left: 402px;
+    top: 1308px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family: Yantramanav;
+    font-weight: 400;
+    line-height: 36px;
+    word-wrap: break-word;
+}
+
+#main8-5{
+    width: 318px;
+    left: 402px;
+    top: 1032px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family: Yantramanav;
+    font-weight: 400;
+    line-height: 36px;
+    word-wrap: break-word;
+}
+
+#main8-6{
+    width: 642px;
+    height: 121px;
+    left: 903px;
+    top: 1000px;
+    position: absolute;
+    color: black;
+    font-size: 75px;
+    font-family:  Zen Old Mincho;
+    font-weight: 400;
+    line-height: 112.50px;
+    word-wrap: break-word;
+}
+
+#main8-7{
+    width: 241px;
+    left: 903px;
+    top: 1146px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family: Yantramanav;
+    font-weight: 400;
+    line-height: 36px;
+    word-wrap: break-word;
+}
+
+/* 하이퍼링크 이미지 스타일 */
+#main8-8{
+    width: 63px;
+    height: 61px;
+    left: 710px;
+    top: 1338px;
+    position: absolute;
+}
+
+#main8-9{
+    width: 318px;
+    left: 620px;
+    top: 1389px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: Yesteryear;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+}
+
+#main8-10{
+    width: 423px;
+    height: 0px;
+    left: 904px;
+    top: 1209px;
+    position: absolute;
+    border: 1px black Dotted;
+}
+
+#main8-11{
+    width: 423px;
+    height: 0px;
+    left: 904px;
+    top: 1326px;
+    position: absolute;
+    border: 1px black Dotted;
+}
+
+#main8-12{
+    width: 423px;
+    height: 0px;
+    left: 904px;
+    top: 1430px;
+    position: absolute;
+    border: 1px black Dotted;
+}
+
+#main8-13{
+    width: 423px;
+    height: 0px;
+    left: 904px;
+    top: 1536px;
+    position: absolute;
+    border: 1px black Dotted;
+}
