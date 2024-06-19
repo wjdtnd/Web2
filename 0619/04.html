@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function divGradient(){
+            let result ="";
+            for(let i=0;i<256;i++)
+            {
+                result +="<div></div>";
+            }
+            document.body.innerHTML=result;
+            let divs=document.querySelectorAll("div");//divs에는 256개의 배열이 저장되어있음
+            //css style 적용(div 높이와 배경색)
+            for(let i=0;i<divs.length;i++)
+            {
+                divs[i].style.height = '3px';
+                //divs[i].style.background = "rgb( " + i + "," + i + "," + i + ")";
+                divs[i].style.background = "rgb( 255" + "," + i + "," + i + ")";//빨강으로 그라디에이션
+            }
+        }
+    </script>
+</head>
+<body onload="divGradient()">
+    <div>
+
+    </div>
+</body>
+</html>
