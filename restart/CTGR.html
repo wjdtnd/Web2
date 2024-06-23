@@ -2,47 +2,60 @@
 <html lang="en">
 <head>
 
+    <!-- 구글 폰트 불러오기 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Zen Dots와 Zen Old Mincho 폰트 불러오기 -->
     <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap" rel="stylesheet">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <!-- 외부 CSS 파일 연결 -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css.css">
 
     <style>
+        /* 상단 바 스타일링 */
         .top-bar{
             height: 80px;
             position: fixed;
             top: 0;
             width: 100%;
-          	z-index: 100;
+            z-index: 100;
             background-color: white;
         }
 
-        *{  padding-top: 20px;
-            margin-left: 0;}
+        /* 모든 요소의 패딩을 20px로 설정 */
+        *{  
+            padding-top: 20px;
+            margin-left: 0;
+        }
 
+        /* 배경색 스타일링 */
         .bg1 { 
           background-color: #c9c9c9;
           background-size: contain;
-	      }
+        }
+
+        /* 마우스 오버 시 변환 효과를 위한 클래스 */
+        .cursor {
+          display: inline-block;
+          transition: transform 0.5s; /* 변환 효과 설정 */
+          transform-origin: left; /* 왼쪽을 기준으로 확대 */
+        }
 
     </style>
 
 </head>
 <body>
-    <!-- 탑바고정배치 -->
+    <!-- 상단 고정 바 -->
     <div class="top-bar">
        <div>
         <div id="top1">
+            <!-- 메뉴 이미지 추가 -->
             <img style="width: 39px; height: 44px" src="imgs/menu_110986 2.png" />
         </div>
         <div id="top2">▼GLOBAL</div>
@@ -50,11 +63,43 @@
         </div>
     </div>
 
+    <!-- 메인 콘텐츠 영역 -->
     <div style="width: 1440px; height: 911px; position: relative">
         <div style="width: 1440px; height: 911px; left: 0px; top: 0px; position: absolute">
+          <!-- 배경 레이어 추가 -->
           <div style="width: 150%; height: 125%; left: 0px; top: 0px; position: absolute; background: rgba(248.63, 237.69, 198.90, 0.33)"></div>
-          <div style="width: 642px; height: 478px; left: 10px; top: 18px; position: absolute; color: black; font-size: 45px; font-family: Zen Old Mincho; font-weight: 400; line-height: 67.50px; word-wrap: break-word">COLLECTIONS<br/>BEST ITEMS<br/>CREATE OWN COLLECTION<br/>REVIEWS<br/>CONTACT US</div>
+          <!-- 텍스트 요소들 추가 -->
+          <div class="cursor" style="width: 642px; height: 67.5px; left: 10px; top: 18px; position: absolute; color: black; font-size: 45px; font-family: Zen Old Mincho; font-weight: 400; line-height: 67.50px; word-wrap: break-word">
+            COLLECTIONS
         </div>
-      </div>
+        <div class="cursor" style="width: 642px; height: 67.5px; left: 10px; top: 85.5px; position: absolute; color: black; font-size: 45px; font-family: Zen Old Mincho; font-weight: 400; line-height: 67.50px; word-wrap: break-word">
+            BEST ITEMS
+        </div>
+        <div class="cursor" style="width: 642px; height: 67.5px; left: 10px; top: 153px; position: absolute; color: black; font-size: 45px; font-family: Zen Old Mincho; font-weight: 400; line-height: 67.50px; word-wrap: break-word">
+            CREATE OWN COLLECTION
+        </div>
+        <div class="cursor" style="width: 642px; height: 67.5px; left: 10px; top: 220.5px; position: absolute; color: black; font-size: 45px; font-family: Zen Old Mincho; font-weight: 400; line-height: 67.50px; word-wrap: break-word">
+            REVIEWS
+        </div>
+        <div class="cursor" style="width: 642px; height: 67.5px; left: 10px; top: 288px; position: absolute; color: black; font-size: 45px; font-family: Zen Old Mincho; font-weight: 400; line-height: 67.50px; word-wrap: break-word">
+            CONTACT US
+        </div>
+
+        <script>
+            // 'cursor' 클래스를 가진 모든 요소를 선택
+            const cursorElements = document.querySelectorAll('.cursor');
+            
+            // 각 요소에 이벤트 리스너 추가
+            cursorElements.forEach(element => {
+                element.addEventListener('mouseover', function() {
+                    this.style.transform = 'scale(1.5)';
+                });
+                
+                element.addEventListener('mouseout', function() {
+                    this.style.transform = 'scale(1)';
+                });
+            });
+          </script>
+        
 </body>
 </html>

@@ -66,7 +66,8 @@
     display: inline-flex;
 }
 
-#main1-3{
+
+#main1-3 {
     width: 1095px;
     height: 160px;
     left: 129px;
@@ -79,9 +80,11 @@
     font-weight: 400;
     line-height: 225px;
     word-wrap: break-word;
+
+
 }
 
-#main1-4{
+#main1-4 {
     width: 178px;
     height: 145px;
     left: 1240px;
@@ -89,7 +92,7 @@
     position: absolute;
 }
 
-#main1-5{
+#main1-5 {
     width: 513px;
     height: 167px;
     left: 990px;
@@ -102,9 +105,10 @@
     font-weight: 400;
     line-height: 225px;
     word-wrap: break-word;
+
 }
 
-#main1-6{
+#main1-6 {
     width: 1422px;
     height: 184px;
     left: 57px;
@@ -117,9 +121,11 @@
     font-weight: 400;
     line-height: 225px;
     word-wrap: break-word;
+
+
 }
 
-#main1-7{
+#main1-7 {
     width: 175px;
     height: 150px;
     left: 827px;
@@ -127,7 +133,7 @@
     position: absolute;
 }
 
-#main1-8{
+#main1-8 {
     width: 799px;
     height: 160px;
     left: 38px;
@@ -140,6 +146,8 @@
     font-weight: 400;
     line-height: 225px;
     word-wrap: break-word;
+
+    
 }
 
 #main1-9{
@@ -1233,76 +1241,4 @@
     font-weight: 400;
     line-height: 45px;
     word-wrap: break-word;
-}
-
-/*움직이는글자*/
-.flying-text {
-    font-size: 2em;
-    font-weight: bold;
-    position: absolute; /* absolute로 변경하여 고정 위치 설정 */
-    left: 100%; /* 시작 위치를 화면 오른쪽 밖으로 설정 */
-    animation: flyin 3s ease-out forwards;
-}
-
-@keyframes flyin {
-    0% {
-        transform: translateX(0); /* 시작 위치 */
-        opacity: 0;
-    }
-    80% {
-        transform: translateX(0vw); /* 멈추는 위치를 화면의 중앙 근처로 설정 */
-        opacity: 1;
-    }
-    100% {
-        transform: translateX(0vw); /* 멈추는 위치 고정 */
-        opacity: 1;
-    }
-
-
-/*움직이는글자*/
-
-.flying-text {
-    font-size: 2em;
-    font-weight: bold;
-    position: absolute; 
-    left: 0; /* 시작 위치를 화면 오른쪽 밖으로 설정 */
-    animation: flyin 3s ease-out forwards;
-}
-
-.flying-2-text {
-    font-size: 2em;
-    font-weight: bold;
-    position: absolute; 
-    right: 0; /* 시작 위치를 화면 왼쪽 밖으로 설정 */
-    animation: flyin-2 3s ease-out forwards;
-}
-
-@keyframes flyin {
-    0% {
-        transform: translateX(200vw); /* 시작 위치를 화면 오른쪽 밖으로 설정 */
-        opacity: 0;
-    }
-    80% {
-        transform: translateX(-50vw); /* 멈추는 위치를 화면의 중앙 근처로 설정 */
-        opacity: 1;
-    }
-    100% {
-        transform: translateX(-50vw); /* 멈추는 위치 고정 */
-        opacity: 1;
-    }
-}
-
-@keyframes flyin-2 {
-    0% {
-        transform: translateX(-200vw); /* 시작 위치를 화면 왼쪽 밖으로 설정 */
-        opacity: 0;
-    }
-    80% {
-        transform: translateX(50vw); /* 멈추는 위치를 화면의 중앙 근처로 설정 */
-        opacity: 1;
-    }
-    100% {
-        transform: translateX(50vw); /* 멈추는 위치 고정 */
-        opacity: 1;
-    }
 }

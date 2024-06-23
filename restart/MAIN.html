@@ -37,6 +37,12 @@
           background-color: #c9c9c9;
           background-size: contain;
 	      }
+        
+        .animated {
+            position: absolute;
+            opacity: 0;
+            transition: opacity 3s ease-out;
+        }
 
     </style>
 </head>
@@ -53,19 +59,79 @@
             <div id="top3">tee:cop</div>
           </div>
     </div>
+
+    <script>
+      let date = new Date();
+      let hour = date.getHours();
+      let dayOfWeek = date.getDay(); // 0 (Sunday) through 6 (Saturday)
+      let result = "";
+  
+      if (dayOfWeek === 0 || dayOfWeek === 6) {
+          // Weekend (Sunday or Saturday)
+          result = "주말은 배송업무를 진행하지 않습니다.";
+      } else {
+          // Weekday (Monday to Friday)
+          if (hour < 16) {
+              result = "당일 발송 가능합니다. 오후 4시까지 주문을 완료해주세요.";
+          } else {result = "다음날 택배 발송 가능합니다."}
+      }
+  
+      alert("현재시간은 " + hour + "시 입니다." + "\n" + result + "\n(공휴일이 있는 경우 공지사항 배송일정을 확인하여주십시오.)");
+  </script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', (event) => {
+          // 자바스크립트로 애니메이션 구현
+          function animateElement(element, startX, endX, duration) {
+              const startTime = performance.now();
+
+              function animationStep(currentTime) {
+                  const elapsedTime = currentTime - startTime;
+                  const progress = Math.min(elapsedTime / duration, 1);
+                  const currentX = startX + progress * (endX - startX);
+
+                  element.style.transform = `translateX(${currentX}px)`;
+                  element.style.opacity = progress;
+
+                  if (progress < 1) {
+                      requestAnimationFrame(animationStep);
+                  }
+              }
+
+              requestAnimationFrame(animationStep);
+          }
+
+          // 요소 애니메이션 적용
+          const main1_3 = document.getElementById('main1-3');
+          const main1_5 = document.getElementById('main1-5');
+          const main1_6 = document.getElementById('main1-6');
+          const main1_8 = document.getElementById('main1-8');
+
+          if (main1_3 && main1_5 && main1_6 && main1_8) {
+              animateElement(main1_3, -300, 0, 3000);
+              animateElement(main1_5, window.innerWidth, 0, 3000);
+              animateElement(main1_6, -300, 0, 3000);
+              animateElement(main1_8, window.innerWidth, 0, 3000);
+          } else {
+              console.error('One or more elements not found.');
+          }
+      });
+  </script>
+
     <!-- 메인페이지1(씨리얼볼 컵 머그 와인 티컵 오브젝트) -->
     <div id="main1-1">
         <div id="main1-2">
         </div>
-        <div id="main1-3" class="flying-2-text">CEREALBOWL</div>
+        <div id="main1-3" class="animated">CEREALBOWL</div>
         <img id="main1-4" src="imgs/yellow ribbon.png" />
-        <div id="main1-5" class="flying-2-text">WINE</div>
-        <div id="main1-6" class="flying-text">TEACUP OBJECT</div>
+        <div id="main1-5" class="animated">WINE</div>
+        <div id="main1-6" class="animated">TEACUP OBJECT</div>
         <img id="main1-7" src="imgs/pink ribbon.jpg" />
-        <div id="main1-8" class="flying-2-text">CUP MUG </div>
+        <div id="main1-8" class="animated">CUP MUG </div>
         <img id="main1-9" src="imgs/silling.png" />
         <div id="main1-10">SEE THE<br/>COLLECTIONS</div>
       </div>
+
       <!-- 메인페이지2 브랜드 밸류  -->
       <div id="main2-1">
         <div id="main2-2">
