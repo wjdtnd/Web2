@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        window.onload=function(){
+            let btn1=document.getElementById("btn1");
+            let btn2=document.getElementById("btn2");
+            btn1.onclick=function(){
+                document.body.style.backgroundColor="blue";
+            }
+            btn2.onclick=function(){
+                document.body.style.backgroundColor="white";
+            }
+        };
+    </script>
+</head>
+<!-- 고전이벤트 모델을 사용한 이벤트 처리 방법 -->
+<body>
+    <button id="btn1">배경색 변경</button>
+    <button id="btn2">배경색 원래대로</button>
+</body>
+</html>
